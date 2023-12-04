@@ -14,6 +14,7 @@ body {
 header,
 footer {  
   background-image: linear-gradient(to right, #344e41, #3a5a40, #588157);
+  background-color: #216869;
   text-align: left;
   min-width: 500px;
 }
@@ -109,8 +110,8 @@ img {
   top: 1px;
 }
 
-.recipe {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+.project {
+  box-shadow: 0 0px 1px 0 rgb(0 0 0 / 40%);  
   width: 100%;
 }
 
@@ -122,35 +123,15 @@ a{
   color: #216869;
 }
 
-.time {
-  padding-left: 10px;
-  padding-top: 10px;
-  width: 20px;
-  height: auto;
-}
-
-.mins {
-  display: inline-block;
-  font-family: 'Inconsolata', monospace;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  text-align: left;
-  color: #4a4a4a;
-  position: relative;
-  bottom: 5px;
-}
-
 .description {
   font-family: 'Karla';
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 1.29;
   letter-spacing: 0.1px;
   text-align: left;
   color: #4a4a4a;
-  padding: 10px 0px 10px 10px;
-  border-top: 1px solid #4a4a4a;
+  padding: 0 20px 20px 20px; 
 }
 
 .logo {
